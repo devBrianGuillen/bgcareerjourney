@@ -15,6 +15,7 @@ a {
   color: #007bff; /* Set the color of the links */
 }
 
+
 /* Topbar */
 .topbar {
   background-color: #000; /* Set the background color of the topbar */
@@ -51,7 +52,7 @@ a {
 }
 
 .hero {
-  background-image: url('./tony-reid-eMaS4mzaksU-unsplash.jpg');
+  background-image: url('./tony-reid-eMaS4mzaksU-unsplash-min.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -159,6 +160,8 @@ a {
       font-size: 14px; /* Adjust the font size for the copyright notice */
       color: #666666; /* Set the color of the text */
     }
+
+    top: 0;
     
     /* Add left and right padding to create spacing from the edges */
     padding-left: 30px;
