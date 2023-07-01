@@ -1,0 +1,128 @@
+body, html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Set the color of the links */
+}
+
+/* Topbar */
+.topbar {
+  background-color: #000; /* Set the background color of the topbar */
+  color: #ffffff; /* Set the text color of the topbar */
+  position: fixed; /* Fix the topbar at the top of the viewport */
+  width: 100%; /* Make the topbar span the full width of the viewport */
+  top: 0; /* Position the topbar at the top */
+  left: 0; /* Position the topbar flush with the left side */
+  padding: 10px; /* Add padding for better visual appearance */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+.topbar .logo {
+  display: inline-block;
+  margin-right: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.topbar .navigation {
+  list-style: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to align the menu items */
+  justify-content: flex-end; /* Align menu items to the right */
+  flex-wrap: wrap; /* Wrap menu items to the next line if necessary */
+}
+.topbar .navigation li {
+  margin-right: 20px; /* Add spacing between menu items */
+}
+.topbar .navigation li:last-child {
+  margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.hero {
+  background-image: url("./tony-reid-eMaS4mzaksU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.hero .h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero .p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.hero .hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.hero .hero-button:hover {
+  background-color: #0056b3;
+}
+
+/* Create a grid container */
+.main-content {
+  padding: 40px;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #f5f5f5; /* Set the background color of the footer */
+  padding: 20px; /* Add padding for better visual appearance */
+  text-align: center; /* Center align the content within the footer */
+  /* Add left and right padding to create spacing from the edges */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer .contact-info {
+  margin-bottom: 10px; /* Add spacing between sections */
+}
+.footer .contact-info p {
+  margin: 0; /* Remove default margin */
+}
+.footer .social-media {
+  margin-bottom: 10px; /* Add spacing between sections */
+}
+.footer .social-media a {
+  display: inline-block;
+  margin-right: 10px; /* Add spacing between social media links */
+  color: #333333; /* Set the color of the links */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer .copyright {
+  font-size: 14px; /* Adjust the font size for the copyright notice */
+  color: #666666; /* Set the color of the text */
+}
+
+/*# sourceMappingURL=style.css.map */
